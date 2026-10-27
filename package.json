@@ -1,0 +1,19 @@
+{
+  "name": "e2e-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sandbox command line app for the Repo Concierge end-to-end tests",
+  "type": "module",
+  "bin": {
+    "e2e-app": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "e2e-lib": "github:gearsnlevers/e2e-lib#main"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
